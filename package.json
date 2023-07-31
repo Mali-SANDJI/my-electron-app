@@ -1,0 +1,37 @@
+{
+  "name": "sandji_v2",
+  "version": "1.0.0",
+  "description": "Application bureautique pour une version recente de l'application Sandji pour Mali Météo",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mali-SANDJI/sandji-2.0.git"
+  },
+  "keywords": [
+    "sandji"
+  ],
+  "author": "K.SENOU & B.DARA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mali-SANDJI/sandji-2.0/issues"
+  },
+  "homepage": "https://github.com/Mali-SANDJI/sandji-2.0#readme",
+  "devDependencies": {
+    "@electron-forge/cli": "^6.2.1",
+    "@electron-forge/maker-deb": "^6.2.1",
+    "@electron-forge/maker-rpm": "^6.2.1",
+    "@electron-forge/maker-squirrel": "^6.2.1",
+    "@electron-forge/maker-zip": "^6.2.1",
+    "@electron-forge/plugin-auto-unpack-natives": "^6.2.1",
+    "electron": "^25.3.1"
+  },
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.0"
+  }
+}
